@@ -23,5 +23,5 @@
    - I want to improve my skills and develop a deeper understanding of programming, operating systems, and computer science in general.
 
 5. Briefly describe any concerns you might be having with being successful in this class (if any):
-   - I am a finance major, so a lot of computer science is not second nature to me. I know it will be difficult, but I look forward to the challenge. Addtionally, I am a junior and have some of my most difficult classes this term, so it will definitly be a grind! 
+   - I am a finance major, so a lot of computer science is not second nature to me. I know it will be difficult, but I look forward to the challenge. Addtionally, I am a junior and have some of my most difficult classes this term, so it will definitely be a grind! 
 
