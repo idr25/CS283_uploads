@@ -22,7 +22,7 @@
 
 ### 6. Describe how your implementation of build_cmd_buff() handles quoted arguments. Why is this necessary?
 
-> **Answer**: My implementation ensures that quoted arguments are treated as a single entity instead of being split at spaces. This is necessary to correctly handle commands that include multi-word arguments, such as file paths with spaces.
+> **Answer**: My implementation ensures that quoted arguments are treated as a single entity instead of being split at spaces. This is necessary to correctly handle commands that include multi-word arguments.
 
 ### 7. What changes did you make to your parsing logic compared to the previous assignment? Were there any unexpected challenges in refactoring your old code?
 
@@ -32,14 +32,14 @@
 
 #### What is the purpose of signals in a Linux system, and how do they differ from other forms of interprocess communication (IPC)?
 
-> **Answer**: Signals provide a way to asynchronously notify processes about events such as termination, suspension, or custom-defined events. Unlike other IPC mechanisms like pipes or message queues, signals are lightweight and typically used for process control rather than data exchange.
+> **Answer**: Signals provide a way to asynchronously notify processes about events. Unlike other IPC mechanisms, signals are lightweight and typically used for process control rather than data exchange.
 
 #### Find and describe three commonly used signals (e.g., SIGKILL, SIGTERM, SIGINT). What are their typical use cases?
 
 > **Answer**:
-> - **SIGKILL (9)**: Immediately terminates a process without allowing cleanup.
-> - **SIGTERM (15)**: Requests a process to terminate gracefully, allowing cleanup.
-> - **SIGINT (2)**: Interrupts a process, usually sent when a user presses `Ctrl+C`.
+> - **SIGKILL **: Immediately terminates a process without allowing cleanup.
+> - **SIGTERM **: Requests a process to terminate gracefully, allowing cleanup.
+> - **SIGINT **: Interrupts a process, usually sent when a user presses `Ctrl+C`.
 
 #### What happens when a process receives SIGSTOP? Can it be caught or ignored like SIGINT? Why or why not?
 
