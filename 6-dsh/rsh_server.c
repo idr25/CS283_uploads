@@ -200,8 +200,7 @@ int process_cli_requests(int svr_socket) {
  */
 int exec_client_requests(int cli_socket) {
     int io_size;
-    command_list_t cmd_list;
-    int cmd_rc;
+    command_list_t cmd_list; 
     char *io_buff;
     
     // Allocate buffer for communication
@@ -326,7 +325,7 @@ int exec_client_requests(int cli_socket) {
         }
         
         // Execute the command pipeline
-        cmd_rc = rsh_execute_pipeline(cli_socket, &cmd_list);
+        rsh_execute_pipeline(cli_socket, &cmd_list);
         
         // Send EOF to signal end of command output
         send_message_eof(cli_socket);
